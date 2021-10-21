@@ -1,0 +1,135 @@
+@font-face {
+	font-family: "principale";
+	src: url("../Fonts/Arial.woff") format("woff");
+}
+
+@font-face {
+	font-family: "italic";
+	src : url("../Fonts/Arial-Italic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "gras";
+	src : url("../Fonts/NeutraDisp-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "geneva";
+	src : url("../Fonts/geneva-webfont.woff") format("woff"), 
+	url("../Fonts/geneva-webfont.woff") format("woff2");
+}
+
+
+
+
+
+
+html{
+	background-image: url(../img/jpg/Glace-motif.jpg);
+	font-family: "principale";
+	color : #00466b;
+}
+
+body{
+	font-size: 16px; /*unité de base des rem*/
+	margin: 0;
+}
+
+
+h1, h2{
+	font-family: "gras";
+	text-align: center;
+}
+h2{
+	font-size: 1.2rem;
+}
+small{
+	font-size: 1.2rem;
+}
+form h1, form h2{
+	text-align: left;
+}
+
+
+hgroup{
+	text-align: center;
+}
+
+.pic{
+	width: 2rem;
+}
+.entete{
+	width: 8rem;
+}
+.ligne{
+	width: 10rem;
+}
+.trait{
+	width: 100%;
+}
+
+header img{
+	width: 100%;
+}
+
+span.violet{
+	color: #ae0c73;
+}
+
+span.rose{
+	color: #d082a9;
+}
+
+span.blue{
+	color: #2e7ebd;
+}
+
+main{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+main img{
+	width: 100%;
+}
+
+
+.footer{
+	text-align: right;
+}
+.fleur{
+	width: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 64rem){
+	.pos{
+		 display: flex;
+  flex-wrap: nowrap;
+	}
+	
+	header img{
+		height: 100vh;
+		width: auto;
+		position: sticky;
+		top: 0;
+		left: 0;
+	}
+
+
+
+}
